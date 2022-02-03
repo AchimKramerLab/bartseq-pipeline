@@ -1,4 +1,4 @@
-name: snakemake
+name: [NEW_ENVIRONMENT_NAME] #e.g. Snakemake
 channels:
   - conda-forge
   - bioconda
@@ -20,4 +20,4 @@ dependencies:
       - tqdm==4.62.*
       - sickle==0.7.*
       - openpyxl
-prefix: /Users/mervebduman/opt/anaconda3/envs/snakemake
+prefix: [ADDYOURPATH]/opt/anaconda3/envs/snakemake

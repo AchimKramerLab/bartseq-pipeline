@@ -10,6 +10,8 @@ The primer design code and an older version lives in `theislab/bartSeq <https://
 
 Entry point
 -----------
+- Add your environment name (default=Snakemake) and path to Environment.yml 
+
 - Delete old environment in case there is one
 
 ``conda deactivate
@@ -21,7 +23,7 @@ conda env remove -n bartseq_snakemake``
 
 Activate the new environment
 
-``conda activate [newenvironmentname]``
+``conda activate [NEW_ENVIRONMENT_NAME]``
 
 The pipeline can be run via ``snakemake [-j 4] [-s …/bartseq/Snakefile] [-d …/mydata]``,
 where ``-j`` specifies the number of threads,
